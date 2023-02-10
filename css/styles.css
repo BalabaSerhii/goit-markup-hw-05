@@ -1,0 +1,506 @@
+:root {
+	--primary-brand: #4D5AE5;
+	--dark: #2E2F42;
+	--success: #31D0AA;
+	--text: #434455; 
+	--subtle-Text: #8E8F99;
+	--accent: #E7E9FC;
+	--light: #F4F4FD;
+	--standatr-white: #FFFFFF;
+	--background-btn: #404BBF;
+	--background-primery: #E5E5E5;
+	
+	}
+
+.list {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	font-family: Roboto, sans-serif;
+	color: var(--text);
+	background-color: var(--standatr-white);
+	/* width: 1440px; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: 0;
+}
+
+.container.list {
+	display: flex;
+
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* =====================================navigation=========================== */
+.contact:focus,
+.contact:hover {
+	color: var(--primary-brand);
+}
+
+.contact,
+.contact {
+	color: var(--dark);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-transform: inherit;
+	font-style: normal;
+	text-decoration: none;
+	display: flex;
+}
+
+
+
+
+
+/* --------------------------------header------------------- */
+.logo {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--dark);
+	text-decoration: none;
+	margin-right: 76px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+
+.hero-background {
+	background-color: var(--dark);
+	color: var(--standatr-white);
+	margin: auto;
+	margin-bottom: 120px;
+	text-align: center;
+	padding-bottom: 188px;
+	width: 1440px;
+
+	
+}
+
+.hero {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	margin-top: 0;
+	margin-bottom: 48px;
+	padding-top: 188px;
+
+}
+
+.button-order:hover,
+.button-order:focus {
+	background-color: var(--background-btn);
+}
+
+.button-order {
+	color: var(--standatr-white);
+	background-color: var(--primary-brand);
+	cursor: pointer;
+	padding: 16px 32px;
+	border: none;
+	border-radius: 4px;
+	/* margin-bottom: 188px; */
+
+}
+
+.benefits-h3 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.benefits-p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--text);
+}
+
+.address-li {
+	margin-right: 40px;
+}
+
+.address-li:last-child {
+	margin-right: 0;
+}
+
+.header-li {
+	margin-right: 40px;
+}
+
+.header-li:last-child {
+	margin-right: 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: var(--accent);
+	
+}
+
+.header-address {
+	display: flex;
+	align-items: center;
+}
+
+.address {
+	margin-left: auto;
+}
+
+.navigation-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* height: 72px; */
+}
+
+.header-ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container.header-text {
+	display: flex;
+
+}
+
+.page-header {
+	color: var(--dark);
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.page-header:hover,
+.page-header:focus {
+	color: var(--primary-brand);
+}
+
+.header-text {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 72px;
+	padding-top: 120px;
+}
+
+
+/* ----------------------Strategy--------------------------- */
+
+
+.advantages {
+	margin-top: 0;
+	/* margin-bottom: 120px; */
+	/* display: flex;
+	align-items: stretch;
+	 */
+}
+
+.advantages-text {
+	display: flex;
+}
+
+.advantages-li {
+	margin-right: 24px;
+	width: 264px;
+}
+
+.advantages-li:last-child {
+	margin-right: 0;
+}
+
+.container-r {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1158px;
+	/* outline: 1px solid red; */
+	padding-left: 15px;
+	padding-right: 15px;
+	/* padding-bottom: 120px; */
+}
+
+/* -----------------------------What Are We Doing--------------- */
+
+
+.img-doing {
+		padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 120px;
+}
+
+.doing-li {
+	margin-right: 24px;
+}
+
+.doing-li:last-child {
+	margin-right: 0;
+}
+
+
+
+/* ------------------------------------Our Team---------------------------------- */
+
+.header-textlist {
+	display: flex;
+	padding-bottom: 120px;
+	
+}
+
+.card-p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+	padding-bottom: 32px;
+	margin-top: 8px;
+}
+
+.img-pipl {
+	background-color: var(--light);
+	text-align: center;
+	/* width: 1440px; */
+	margin: auto;
+	
+}
+
+
+.card-h3 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	padding-top: 32px;
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1158px;
+	/* outline: 1px solid red; */
+	padding-left: 15px;
+	padding-right: 15px;
+	/* padding-bottom: 120px; */
+
+}
+
+.card {
+	display: block;	
+	background: #FFFFFF;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
+	margin-right: 24px;
+}
+
+.card-img {
+	display: block;
+}
+
+.card:last-child {
+	margin-right: 0px;
+}
+
+.main-oll {
+	margin-top: 96px;
+	margin-bottom: 120px;
+}
+
+
+/* ----------------------------Portfolio-------------------------------------- */
+
+.btn-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 72px;
+	/* margin-top: 96px; */
+}
+
+.work-examples {
+	display: flex;
+	flex-wrap: wrap;
+	/* padding-bottom: 32px; */
+	/* margin: -10px; */
+	
+}
+
+
+
+.work-li {
+	 display: flex; 
+	 box-sizing: border-box; 
+	 width: 360px;
+	/* height: 420px; */
+	background: #FFFFFF;
+	margin-right: 24px;
+	margin-bottom: 48px;
+	 
+}
+
+.work-li:nth-child(3n + 3) {
+	margin-right: 0px;
+}
+
+.work-li:nth-child(n + 6) {
+	margin-bottom: 0px;
+}
+
+
+.button-nav {
+		background: #F4F4FD;
+		cursor: pointer;
+		border: 1px solid #E7E9FC;
+		border-radius: 4px;
+		flex: none;
+		order: 2;
+		flex-grow: 0;
+		padding: 12px 24px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: var(--primary-brand);
+		
+}
+
+.btn-li {
+margin-right: 24px;
+}
+.btn-li:last-child {
+	margin-right: 0;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+	
+	background-color: var(--background-btn);
+	color: var(--standatr-white);
+}
+
+.examples-img {
+	color: var(--dark);
+	text-decoration: none;
+	background: var(--standatr-white);
+	/* margin-bottom: 32px; */
+}
+
+.examples-box {
+border: 1px solid var(--accent);
+border-top: 0;
+
+	
+
+}
+
+.examples-h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 32px;
+	padding-left: 16px;
+	margin-bottom: 8px;
+	color: var(--text)
+	
+	}
+
+.examples-p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 32px;
+	padding-left: 16px;
+	color: var(--text)
+	}
+	
+
+/* -----------------------Footer------------------------------------- */
+.footer-p {
+	color: var(--accent);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	margin-top: 16px;
+}
+.logo-f {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--light);
+	text-decoration: none;
+	
+}
+.logo-web {
+	width: 44px;
+	height: 24px;
+	font-family: 'Raleway';
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--primary-brand);
+}
+.footer {
+	background-color: var(--dark);
+	/* width: 1440px;
+	height: 310px; */
+	margin: auto;
+	padding: 100px;
+}
+.footer-end {
+	width: 264px;
+
+}
